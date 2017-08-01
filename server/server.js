@@ -31,7 +31,9 @@ app.listen(8080, () => {
     console.log('Started on Port 8080')
 })
 
-
+module.exports = {
+    app
+}
 
 
 
